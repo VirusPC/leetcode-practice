@@ -1,4 +1,9 @@
 /**
+ * 1. j结果需要额外的头指针
+ * 2. 同时遍历：val = p.val + q. val + carry
+ * 3. 遍历一个：val = p.val + carray
+ * 4. 最后: val = carry
+ * 
  * Definition for singly-linked list.
  * function ListNode(val, next) {
  *     this.val = (val===undefined ? 0 : val)
